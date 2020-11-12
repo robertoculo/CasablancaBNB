@@ -1,0 +1,152 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ body {
+  font-family: 'Bree Serif', serif;
+ }
+nav ul a,
+nav .brand-logo {
+  color: #3f4767;
+}
+
+nav .brand-logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+}
+
+nav .nav-wrapper {
+    padding: 5px 50px;
+}
+
+p {
+  line-height: 2rem;
+  font-size:1.1em;
+}
+
+.sidenav-trigger {
+  color: #000000;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.selection-intro {
+  height: 100%;
+  width: 100%;
+}
+  
+
+  .header{
+    margin-top: 15%;
+    font-size:6em;
+  }
+
+.header-subtitle{ 
+  margin-top: 5%
+  font-size: 3,2em;
+ }
+
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 20%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+   .nav-wrapper {
+     padding: 0 1px;
+    }
+}
+
+.col-servizio {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #FBACC4;
+}
+
+#servizio h5{
+  font-size: 1.7em;
+  line-height: 1.6em;
+}
+
+.registrazione-icon {
+  font-size: 10em;
+  margin-top: 70px;
+}
+.btn-registrazione{
+  width: 100%;
+}
+
+.ospita-icon {
+  font-size: 6em;
+  margin-top: 50px;
+}
+
+.ospita-subtitle{
+  font-size: 1.3em;
+  margin-top: 5%;
+  line-height: 2em;
+}
+
+.btn-ospita {
+  width: 100%
+}
+
+.lettera-icon{
+  font-size: 4em;
+  color: #fff;
+}
+
+.librofaccia-icon {
+  font-size: 4em;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.like-icon{
+  font-size: 4em;
+  color: #fff;
+}
+
+
+.lettera-icon:hover {
+  color: #3f4767
+}
+
+.librofaccia-icon:hover{
+  color: #3f4767;
+}
+
+.like-icon:hover{
+  color: #3f4767
+}
